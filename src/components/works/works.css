@@ -1,0 +1,83 @@
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+    background: #fff;
+    padding: 60px 0;
+  }
+  
+  .team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  @media only screen and (max-width: 600px) {
+    .team .member {
+      
+      margin-bottom: 58px;
+      position: relative;
+    }
+  }
+  
+  .team .member .member-info {
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: 0.2s;
+    
+  }
+  
+  .team .member .member-info-content {
+    margin-top: -117px;
+    transition: margin 0.2s;
+    
+  }
+
+  .team .member  .member-info-content a {
+    text-align: initial;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 0px;
+    color: #fff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    text-transform: uppercase;
+    border: 2px solid red;
+    background: red;
+     margin-right: 40%;
+     width: 50%;
+     margin-bottom: 26px;
+  }
+  .team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 40%;
+  }
+  
+  .team .member span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    margin-right: 40%;
+  }
+  
+  .team .member .social {
+    margin-top: 15px;
+  }
+  

@@ -1,0 +1,124 @@
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.section-title {
+  text-align: center;
+}
+/* h4,
+p {
+  text-align: center;
+  margin-top: 30px;
+} */
+.formulaire {
+  margin-left: 30%;
+}
+
+.btn {
+  background: red;
+  border: white;
+  border-radius: 50px;
+  border: 1px solid red;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #fff;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  .formulaire {
+    /* margin-left: 150px; */
+    margin-left: 53px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .form-control {
+    width: 130%;
+    margin-left: -32px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    margin-left: 15px;
+    width: 100%;
+  }
+}
+
+
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+  color: #fff;
+  background: #5c9f24;
+}
+
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+
+/* .portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(42, 42, 42, 0.7);
+} */
+
+.portfolio .portfolio-wrap .portfolio-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links {
+  text-align: center;
+  z-index: 4;
+}
+
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+
